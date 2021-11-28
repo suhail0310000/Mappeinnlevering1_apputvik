@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainActivity_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="45sp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/salmon"
+        android:text="@string/app_name"/>
+
+    <Button
+        android:id="@+id/mainActivity_buttonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="15dp"
+        android:onClick="startGameActivity"
+        android:text="@string/main_game"
+        android:backgroundTint="@color/salmon"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/mainActivity_buttonStatistics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="15dp"
+        android:onClick="startStatisticActivity"
+        android:text="@string/main_statistic"
+        android:backgroundTint="@color/salmon"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/mainActivity_buttonPreferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="15dp"
+        android:text="@string/main_preferences"
+        android:backgroundTint="@color/salmon"
+        android:textColor="@color/white"/>
+</LinearLayout>

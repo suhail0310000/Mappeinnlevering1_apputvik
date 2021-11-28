@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".GameActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/salmon"
+        app:titleTextColor="@color/white">
+
+
+        <TextView
+            android:id="@+id/counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/rightWrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/white"
+            android:layout_marginRight="10dp"
+            android:textSize="19sp"
+            android:text="R: 0\nF: 0"/>
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/los"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/probText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ansText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/gameActivity_button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="23dp"
+            android:text="@string/n7"
+            android:textSize="25sp"
+            android:onClick="gameInput"
+            android:backgroundTint="@color/salmon"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/gameActivity_button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="23dp"
+            android:text="@string/n8"
+            android:textSize="25sp"
+            android:onClick="gameInput"
+            android:backgroundTint="@color/salmon"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/gameActivity_button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="23dp"
+            android:text="@string/n9"
+            android:textSize="25sp"
+            android:onClick="gameInput"
+            android:backgroundTint="@color/salmon"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/gameActivity_button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="23dp"
+            android:text="@string/n4"
+            android:textSize="25sp"
+            android:onClick="gameInput"
+            android:backgroundTint="@color/salmon"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/gameActivity_button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="23dp"
+            android:text="@string/n5"
+            android:textSize="25sp"
+            android:onClick="gameInput"
+            android:backgroundTint="@color/salmon"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/gameActivity_button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="23dp"
+            android:text="@string/n6"
+            android:textSize="25sp"
+            android:onClick="gameInput"
+            android:backgroundTint="@color/salmon"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/gameActivity_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="23dp"
+            android:text="@string/n1"
+            android:textSize="25sp"
+            android:onClick="gameInput"
+            android:backgroundTint="@color/salmon"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/gameActivity_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="23dp"
+            android:text="@string/n2"
+            android:textSize="25sp"
+            android:onClick="gameInput"
+            android:backgroundTint="@color/salmon"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/gameActivity_button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="23dp"
+            android:text="@string/n3"
+            android:textSize="25sp"
+            android:onClick="gameInput"
+            android:backgroundTint="@color/salmon"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/gameActivity_buttonC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="26dp"
+            android:backgroundTint="@color/blue"
+            android:textColor="@color/white"
+            android:text="@string/C"
+            android:textSize="20sp"
+            android:onClick="gameInput"/>
+
+        <Button
+            android:id="@+id/gameActivity_button0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="23dp"
+            android:text="@string/n0"
+            android:textSize="25sp"
+            android:onClick="gameInput"
+            android:backgroundTint="@color/salmon"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/gameActivity_buttonEquals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="26dp"
+            android:backgroundTint="@color/blue"
+            android:textColor="@color/white"
+            android:text="@string/equals"
+            android:textSize="20sp"
+            android:onClick="gameInput" />
+
+    </LinearLayout>
+
+</LinearLayout>

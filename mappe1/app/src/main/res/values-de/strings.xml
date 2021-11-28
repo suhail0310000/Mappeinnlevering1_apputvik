@@ -1,0 +1,60 @@
+<resources>
+    <!-- Strings for activity_main -->
+    <string name="app_name">Mathe-Quiz</string>
+    <string name="main_game">Starte das Spiel</string>
+    <string name="main_statistic">Siehe Statistiken</string>
+    <string name="main_preferences">Einstellungen</string>
+
+    <!-- Strings for activity_game -->
+    <string name="los">Löse dieses Problem:</string>
+    <string name="n0">0</string>
+    <string name="n1">1</string>
+    <string name="n2">2</string>
+    <string name="n3">3</string>
+    <string name="n4">4</string>
+    <string name="n5">5</string>
+    <string name="n6">6</string>
+    <string name="n7">7</string>
+    <string name="n8">8</string>
+    <string name="n9">9</string>
+    <string name="C">Bereuen</string>
+    <string name="equals">Antwort</string>
+    <string name="tooLong">" Die Antwort ist zu lang"</string>
+    <string name="exitTitle">Das Spiel verlassen?</string>
+    <string name="exitDesc">Die Antworten werden nicht gespeichert, wenn Sie fertig sind, bevor Sie alle Aufgaben erledigt haben.</string>
+    <string name="exit">Ausgang</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="correct">Richtig!</string>
+    <string name="wrong">Falsche, richtige Antwort ist: %1$d</string>
+    <string name="empty">Die Antwort darf nicht leer sein, geben Sie eine Antwort ein</string>
+    <string name="percentDesc">Richtig: %1$d\nFehler: %2$d\nGesamt: %3$d</string>
+    <string name="deleteStatistic">Statistiken löschen</string>
+    <string name="resultTitle">Ergebnis</string>
+    <string name="resultatDesc">" Das Spiel ist vorbei, überprüfe die Statistiken für die Ergebnisse"</string>
+    <string name="ok">Ok</string>
+    <string name="game_title">Aufgaben</string>
+    <string name="statistic_title">Statistiken</string>
+
+    <!-- Strings for activity_statistics -->
+
+    <!-- Strings for activity_preferences -->
+    <string name="chooseAmount">Wählen Sie die Anzahl der Fragen aus</string>
+    <string name="changeLanguage">Sprache ändern</string>
+
+    <!-- arrays -->
+    <string-array name="lang_name">
+        <item>Norsk</item>
+        <item>Deutsch</item>
+    </string-array>
+
+    <string-array name="lang_value">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="task_name">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+</resources>

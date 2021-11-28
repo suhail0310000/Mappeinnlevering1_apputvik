@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Addend1, Addend2, Sum -->
+    <string-array name="mathproblems">
+        <item>55,19,74</item>
+        <item>37,33,70</item>
+        <item>32,93,125</item>
+        <item>65,90,155</item>
+        <item>20,36,56</item>
+        <item>63,32,95</item>
+        <item>83,51,134</item>
+        <item>90,37,127</item>
+        <item>57,10,67</item>
+        <item>45,50,95</item>
+        <item>36,46,82</item>
+        <item>31,95,126</item>
+        <item>80,62,142</item>
+        <item>21,5,26</item>
+        <item>85,47,132</item>
+    </string-array>
+
+    <string-array name="lang_name">
+        <item>Norsk</item>
+        <item>Tysk</item>
+    </string-array>
+
+    <string-array name="lang_value">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="task_name">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="task_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

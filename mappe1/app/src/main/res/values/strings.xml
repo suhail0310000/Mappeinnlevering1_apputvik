@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Strings for activity_main -->
+    <string name="game_title">Oppgaver</string>
+    <string name="statistic_title">Statistikk</string>
+
+    <!-- Strings for activity_main -->
+    <string name="app_name">Mattequiz</string>
+    <string name="main_game">Start spillet</string>
+    <string name="main_statistic">Se statistikk</string>
+    <string name="main_preferences">Preferanser</string>
+
+    <!-- Strings for activity_game -->
+    <string name="los">Løs dette problemet:</string>
+    <string name="n0">0</string>
+    <string name="n1">1</string>
+    <string name="n2">2</string>
+    <string name="n3">3</string>
+    <string name="n4">4</string>
+    <string name="n5">5</string>
+    <string name="n6">6</string>
+    <string name="n7">7</string>
+    <string name="n8">8</string>
+    <string name="n9">9</string>
+    <string name="C">Angre</string>
+    <string name="equals">Svar</string>
+    <string name="tooLong">Svaret er for langt</string>
+    <string name="correct">Riktig!</string>
+    <string name="wrong">Feil, riktig svar er: %1$d</string>
+    <string name="empty">Svaret kan ikke være tomt, tast inn et svar</string>
+    <string name="counterString" translatable="false">R: %1$d\nF: %2$d</string>
+
+    <!-- Strings for activity_statistics -->
+    <string name="percentDesc">Riktig: %1$d\nFeil: %2$d\nSum: %3$d</string>
+    <string name="deleteStatistic">Slett statistikk</string>
+
+    <!-- Strings for activity_preferences -->
+    <string name="chooseAmount">Velg antall spørsmål</string>
+    <string name="chooseAmountKey" translatable="false">chooseAmountKey</string>
+    <string name="changeLanguage">Bytt språk</string>
+    <string name="changeLanguageKey" translatable="false">chooseLanguageKey</string>
+
+    <!-- Strings for exit game dialog fragment in activity_game -->
+    <string name="exitTitle">Avslutt spillet?</string>
+    <string name="exitDesc">Svarene vil ikke bli lagret hvis du avslutter før du har fullført alle oppgavene.</string>
+    <string name="exit">Avslutt</string>
+    <string name="cancel">Avbryt</string>
+
+    <!-- Strings for result dialog fragment in activity_game -->
+    <string name="resultTitle">Resultat</string>
+    <string name="resultatDesc">Spillet er slutt, sjekk statistikk for resultater</string>
+    <string name="ok">Ok</string>
+
+    <!-- Strings for result dialog fragment in activity_game -->
+    <string name="statistic_correct_key" translatable="false">statistic_correct_key</string>
+    <string name="statistic_wrong_key" translatable="false">statistic_wrong_key</string>
+    <string name="preferences_amount_key" translatable="false">preferences_amount_key</string>
+    <string name="preferences_language_key" translatable="false">preferences_language_key</string>
+</resources>
